@@ -1,0 +1,29 @@
+/* pages/single/single.wxss */
+.bg-image{ 
+    width : 100%;
+    height : 100%;  
+    position: fixed;  
+    z-index: -1;  
+  }
+
+.dice{
+    width :100rpx;
+    height :100rpx;
+}
+.page{
+  width: 100rpx;
+  height: 100rpx;
+  justify-content: center;        
+  align-items:center;  
+}
+.ogre{
+  width: 100rpx;
+  height: 100rpx;
+  justify-content: center;        
+  align-items:center; 
+  display: inherit;
+}
+.color{
+  color: rgb(253, 165, 0);font-size: 50rpx;margin-left:100rpx;
+
+}

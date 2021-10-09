@@ -1,0 +1,43 @@
+<!--pages/single/single.wxml-->
+<view>
+<image class="bg-image" mode="scaleToFill" src="/icon/1.jpeg"></image>
+</view>
+<view class="color">结果:</view>
+<view class="btn-area" id="buttonContainer">
+    <button type="warn" style="color: rgb(1, 255, 213);height: 120rpx; width: 300rpx;border-radius: 20%;font-size: 50rpx; top: 870rpx; "bindtap="back">返回</button></view>
+
+    <view class="ogre">
+<image  src='/icon/1.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 200rpx;font-size: 500rpx; margin-top: 48rpx;top: 800rpx;'></image>
+<image  src='/icon/4.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 400rpx;font-size: 500rpx; top: 700rpx;'></image>
+<image  src='/icon/5.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 200rpx;font-size: 500rpx; top: 650rpx;'></image>
+<image  src='/icon/4.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 400rpx;font-size: 500rpx; top: 600rpx;'></image>
+<image  src='/icon/2.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 200rpx;font-size: 500rpx; top: 550rpx;'></image>
+<image  src='/icon/1.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 400rpx;font-size: 500rpx; top: 500rpx;'></image>
+</view>
+
+
+
+<block>
+<view class="page">
+<image  src='../../icon/{{dice1}}.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 200rpx;font-size: 500rpx; margin-top: -50rpx; top: 750rpx;'></image>
+<image  src='../../icon/{{dice2}}.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 400rpx;font-size: 500rpx; top: 700rpx;'></image>
+<image  src='../../icon/{{dice3}}.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 200rpx;font-size: 500rpx; top: 650rpx;'></image>
+<image  src='../../icon/{{dice4}}.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 400rpx;font-size: 500rpx; top: 600rpx;'></image>
+<image  src='../../icon/{{dice5}}.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 200rpx;font-size: 500rpx; top: 550rpx;'></image>
+<image  src='../../icon/{{dice6}}.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 400rpx;font-size: 500rpx; top: 500rpx;'></image>
+
+</view></block>
+
+<view class="btn-area" id="buttonContainer">
+    <button type="primary" style="color: rgb(40, 241, 0);height: 60rpx; width: 200rpx;border-radius: 20%;font-size: 30rpx; top: 720rpx; background-color:transparent"bindtap="award" >奖品一览</button></view>
+
+
+
+
+
+
+
+
+
+
+

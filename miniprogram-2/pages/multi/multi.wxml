@@ -1,0 +1,12 @@
+<!--pages/multi/multi.wxml-->
+<view>
+<image class="bg-image" mode="scaleToFill" src="/icon/1.jpeg"></image>
+</view>
+<view class="btn-area" id="buttonContainer">
+    <button type="warn" style="color: rgb(255, 187, 1);height: 120rpx; width: 300rpx;font-size: 50rpx;border-radius: 20%; top: 920rpx; "bindtap="continue">继续游戏</button></view>
+
+<navigator hover-class="none">
+    <button type="warn" title="1" open-type="share" hover-class="none" style="height: 120rpx; width: 200rpx; color: rgb(2, 300, 217); font-size: 50rpx;border-radius: 20%; top: 930rpx; "bindtap="gotoplaydice">分享</button>
+</navigator>
+
+

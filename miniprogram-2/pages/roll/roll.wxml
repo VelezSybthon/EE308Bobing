@@ -1,0 +1,16 @@
+<!--pages/roll/roll.wxml-->
+<view>
+<image class="bg-image" mode="scaleToFill" src="/icon/1.jpeg"></image>
+</view>
+
+      <view class="page">
+      <image  src='/icon/1.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 200rpx;font-size: 500rpx;margin-top:230rpx; top: 750rpx;'></image>
+      <image  src='/icon/2.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 400rpx;font-size: 500rpx; top: 700rpx;'></image>
+      <image  src='/icon/3.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 200rpx;font-size: 500rpx; top: 650rpx;'></image>
+      <image  src='/icon/4.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 400rpx;font-size: 500rpx; top: 600rpx;'></image>
+      <image  src='/icon/5.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 200rpx;font-size: 500rpx; top: 550rpx;'></image>
+      <image  src='/icon/6.png'mode='aspectFit' style='width: 100rpx;height: 100rpx;border-radius: 10%;margin-left: 400rpx;font-size: 500rpx; top: 500rpx;'></image>
+      </view>
+
+<view class="btn-area" id="buttonContainer">
+    <button type="warn" style="color: rgb(66, 63, 253);height: 120rpx; width: 300rpx;font-size: 50rpx; border-radius: 20%;top: 840rpx; "bindtap="single">投骰子</button></view>

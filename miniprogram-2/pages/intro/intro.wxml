@@ -1,0 +1,14 @@
+<!--pages/page3/page3.wxml-->
+<view>
+<image class="bg-image" mode="scaleToFill" src="/icon/1.jpeg"></image>
+</view>
+
+<view class="position"
+style="color: rgb(34, 30, 255);font-size: 50rpx; top: 950rpx;">博饼是中秋节时的一种大众娱乐活动，用六粒骰子投掷结果组合来决定参与者的奖品。 传统的奖品为大小不同的月饼，共计一会，设状元1个，对堂2个，三红4个，四进8个，二举16个，一秀32个。</view>
+<view class="btn-area" id="buttonContainer">
+    <button type="warn" style="height: 120rpx; width: 300rpx;font-size: 50rpx; border-radius: 20%;top: 460rpx; "bindtap="roll">单人游戏</button></view>
+<view class="btn-area" id="buttonContainer">
+<button type="warn" style="color: rgb(96,252,5);height: 120rpx; width: 300rpx;font-size: 50rpx; border-radius: 20%; top: 475rpx; "bindtap="multi">多人游戏</button></view>
+<view class="btn-area" id="buttonContainer">
+<button type="warn" style="color: rgb(0, 195, 255);height: 120rpx; width: 300rpx;font-size: 50rpx; border-radius: 20%;top: 487rpx; "bindtap="detail">详细介绍</button></view>
+

@@ -1,0 +1,10 @@
+<!--pages/award/award.wxml-->
+<view>
+<image class="bg-image" mode="scaleToFill" src="/icon/1.jpeg"></image>
+</view>
+<view class='body'>
+  <image src='/icon/award.jpeg'  mode='aspectFit' style='width: 900rpx; height: 400px;top:50rpx' justify-content='center' ></image>
+  </view>
+  <view class="btn-area" id="buttonContainer">
+    <button type="warn" style="height: 120rpx; width: 300rpx;font-size: 50rpx; border-radius: 20%;top: 230rpx; "bindtap="again">再玩一次</button></view>
+

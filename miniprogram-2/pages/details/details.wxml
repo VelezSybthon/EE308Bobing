@@ -1,0 +1,9 @@
+<view>
+<image class="bg-image" mode="scaleToFill" src="/icon/1.jpeg"></image>
+</view>
+
+<view class='body'>
+  <image src='/icon/rule.png'  mode='aspectFit' style='width: 900rpx; height: 420px;' justify-content='center' ></image>
+</view>
+<view class="btn-area" id="buttonContainer">
+    <button type="warn" style="height: 120rpx; width: 300rpx;font-size: 50rpx; top: 100rpx; "bindtap="continue">继续游戏</button></view>

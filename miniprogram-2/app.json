@@ -1,0 +1,22 @@
+{
+  "pages": [
+      "pages/start/start",
+      "pages/intro/intro",
+      "pages/single/single",
+      "pages/multi/multi",
+      "pages/details/details",
+      "pages/roll/roll",
+      "pages/award/award"
+  ],
+  "window": {
+
+    "backgroundColor": "#fff",
+    "enablePullDownRefresh": true,
+    "navigationBarBackgroundColor": "#f8020e",
+    "backgroundTextStyle": "dark",
+    "navigationBarTitleText": "博饼",
+    "navigationBarTextStyle": "black"
+
+  },
+  "sitemapLocation": "sitemap.json"
+}
